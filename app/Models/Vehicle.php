@@ -6,7 +6,7 @@ namespace App\Models;
 class Vehicle
 {
     private string $name;
-    private int $maxSpeed;
+    private float $maxSpeed;
     private string $unit;
 
     public function __construct($name, $maxSpeed, $unit)
